@@ -61,6 +61,6 @@ LABEL org.freenas.interactive="false" 					\
               \"env\": \"PUID\",					\
               \"descr\": \"UserID\",					\
               \"optional\": true					\
-         },							\
+         }							\
       ]"
 
