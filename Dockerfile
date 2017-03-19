@@ -24,18 +24,15 @@ LABEL org.freenas.interactive="false" 							\
       org.freenas.settings="[ 								\
           {										\
               \"env\": \"OPENVPN_PROVIDER\",						\
-              \"descr\": \"Sets the OpenVPN provider to use\",				\
-              \"optional\": false							\
+              \"descr\": \"Sets the OpenVPN provider to use\"				\
           },										\
           {										\
               \"env\": \"OPENVPN_USERNAME\",						\
-              \"descr\": \"Your OpenVPN username\",					\
-              \"optional\": false							\
+              \"descr\": \"Your OpenVPN username\"					\
           },										\
           {										\
               \"env\": \"OPENVPN_PASSWORD\",						\
-              \"descr\": \"Your OpenVPN password\",					\
-              \"optional\": false							\
+              \"descr\": \"Your OpenVPN password\"					\
           },										\
           {										\
               \"env\": \"OPENVPN_CONFIG\",						\
