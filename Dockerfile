@@ -24,7 +24,7 @@ LABEL org.freenas.interactive="false" 							\
       org.freenas.settings="[ 								\
           {										\
               \"env\": \"OPENVPN_PROVIDER\",						\
-              \"descr\": \"Sets the OpenVPN provider to use\"				\
+              \"descr\": \"OpenVPN provider to use\"					\
           },										\
           {										\
               \"env\": \"OPENVPN_USERNAME\",						\
@@ -36,17 +36,17 @@ LABEL org.freenas.interactive="false" 							\
           },										\
           {										\
               \"env\": \"OPENVPN_CONFIG\",						\
-              \"descr\": \"Sets the OpenVPN endpoint to connect to\",			\
+              \"descr\": \"OpenVPN config to use\",					\
               \"optional\": true							\
           },										\
           {										\
               \"env\": \"OPENVPN_OPTS\",						\
-              \"descr\": \"Will be passed to OpenVPN on startup\",			\
+              \"descr\": \"Passed to OpenVPN\",						\
               \"optional\": true							\
           },										\
           {										\
               \"env\": \"LOCAL_NETWORK\",						\
-              \"descr\": \"Identifies the local network to allow access to the WebUI\",	\
+              \"descr\": \"e.g. 192.168.0.0/24\",					\
               \"optional\": true							\
           },										\
           {										\
